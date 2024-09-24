@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Fundamentos de JavaScript</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            display:grid;
+            width:100vw;
+            height:100vh;
+            place-items:center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        div {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: #4caf50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Fundamentos de JavaScript</h1>
+    <div>
+    <h1 id="message">Bola Mágica</h1>
+</div>
     <script src="./app.js"></script>
 </body>
 </html>
