@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fundamentos de JavaScript</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            display:grid;
+            width:100vw;
+            height:100vh;
+            place-items:center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        div {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: #4caf50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            cursor: pointer;
+        }
+        a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">Retroceder</a>
+    <div id="bola">
+        <h1 id="message">Bola Mágica</h1>
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

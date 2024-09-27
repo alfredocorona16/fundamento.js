@@ -15,15 +15,15 @@ const play = () => {
     switch (aleatorio) {
         case 0:
             choiceMaq = 'piedra';
-            imgMaq.src = 'imagenes/piedra.png';
+            imgMaq.src = 'piedra.png';
             break;
         case 1:
             choiceMaq = 'papel';
-            imgMaq.src = 'imagenes/papel.png';
+            imgMaq.src = 'papel.png';
             break;
         case 2:
             choiceMaq = 'tijeras';
-            imgMaq.src = 'imagenes/tijera.png';
+            imgMaq.src = 'tijera.png';
             break;
     }
 
