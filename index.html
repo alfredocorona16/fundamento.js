@@ -3,18 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Fundamentos de JavaScript</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+            transform: translateY(-5px);
+        }
+
+        a:active {
+            background-color: #1c638d;
+        }
+
+        /* Título de la página */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+
+        /* Contenedor centralizado */
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <a href="../consepts/scissors.html">Piedra Papel o Tijeras</a>
-    </div>
-    <div>
-        <a href="./bolamagica.html">Bola magica</a>
+    <div class="container">
+        <h1>Fundamentos de JavaScript</h1>
+        <div>
+            <a href="../consepts/scissors.html">Piedra Papel o Tijeras</a>
+        </div>
+        <div>
+            <a href="./bolamagica.html">Bola Mágica</a>
+        </div>
     </div>
 
-    <script src="../app.js">
-
-    </script>
+    <script src="../app.js"></script>
 </body>
 </html>
