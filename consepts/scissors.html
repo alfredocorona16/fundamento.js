@@ -61,10 +61,29 @@
         button:hover {
             background-color: #0056b3;
         }
-
+        a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none; /* Eliminar subrayado del enlace */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
+    <div>
+        <a href="../concepts/index.html">Retroceder</a>
+    </div>
     <div id="container">
         <div id="user">Jugador: </div>
         <img id="imgUser" src="papel.png" alt="Imagen del usuario"/>
@@ -73,7 +92,6 @@
         <div id="message"></div>
         <button id="btnPlay">Jugar</button>
     </div>
-    
-    <script src="./scissors.js"></script>
+    <script src="../scissors.js"></script>
 </body>
 </html>
