@@ -18,6 +18,23 @@
         background-color: black;
         color: white;
     }
+    a {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color:blueviolet;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    a:hover {
+        background-color:blueviolet;
+    }
     #lienzo {background-color: darkslateblue;}
 </style>
 <body>
@@ -25,6 +42,7 @@
         <h1>Mi dibujo con Canvas Y JavaScript</h1>
         <canvas id="lienzo" width="600" height="400"></canvas>
     </div>
-    <script src="./aquare.js"></script>
+    <a href="../menu.html">Retroceder</a>
+    <script src="./app.js"></script>
 </body>
 </html>

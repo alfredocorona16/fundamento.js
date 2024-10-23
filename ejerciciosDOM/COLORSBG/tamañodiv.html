@@ -29,6 +29,23 @@
         .slider {
             margin: 10px 0;
         }
+        a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +65,7 @@
     <input type="range" id="blue" class="slider" min="0" max="255" value="0">
 
     <!-- Archivo JavaScript externo que se espera contenga la lógica para mezclar colores -->
+    <a href="/menu.html">Retroceder</a>
     <script src="./tamaño.js"></script>
 </body>
 </html>
