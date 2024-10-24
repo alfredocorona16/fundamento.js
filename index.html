@@ -1,75 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos de JavaScript</title>
+    <title>Menú de JavaScript</title>
     <style>
-        /* Estilos globales */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f4f8;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 20px;
+            background-image: url('fondo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
-
-        div {
-            margin: 20px;
-        }
-
-        a {
-            display: inline-block;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            color: #fff;
-            background-color: #3498db;
-            border-radius: 8px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        a:hover {
-            background-color: #2980b9;
-            transform: translateY(-5px);
-        }
-
-        a:active {
-            background-color: #1c638d;
-        }
-
-        /* Título de la página */
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-            font-size: 36px;
-            margin-bottom: 50px;
-        }
-
-        /* Contenedor centralizado */
         .container {
-            text-align: center;
-            background-color: #fff;
-            padding: 50px;
+            background-color: white;
             border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .menu button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: blueviolet;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .menu button:hover {
+            background-color: darkviolet;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Fundamentos de JavaScript</h1>
-        <div>
-            <a href="./consepts/scissors.html">Piedra Papel o Tijeras</a>
-        </div>
-        <div>
-            <a href="./bolamagica.html">Bola Mágica</a>
+        <h1>Menú de fundamentos de JavaScript</h1>
+        <div class="menu">
+            <a href="./todoapp/index.html"><button>app de tareas</button></a>
+            <a href="./todoapp/dibujojs/index.html"><button>dibujos en canva</button></a>
+            <a href="./rebota/index.html"><button>bolita que rebota</button></a>
+            <a href="./game/index.html"><button>video juego</button></a>
+            <a href="./ejerciciosDOM/COLORSBG/color.html"><button>cuadro modificable</button></a>
+            <a href="./ejerciciosDOM/COLORSBG/tamañodiv.html"><button>pagina de colores</button></a>
+            <a href="./ejerciciosDOM/COLORSBG/index.html"><button>cambio de color</button></a>
+            <a href="./animado/index.html"><button>animacion</button></a>
         </div>
     </div>
 
-    <script src="../app.js"></script>
 </body>
 </html>
